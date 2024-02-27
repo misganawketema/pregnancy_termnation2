@@ -1,0 +1,47 @@
+# Predicting termination of pregnancy among Ethiopian pregnant women using homogeneous ensemble machine learning algorithm
+
+# Background
+
+Between 2015 and 2019, approximately 73.3 million abortions  of which 21.6 million were unsafe abortions were performed globally, 
+almost all of which occurred in developing countries. Every year, approximately 210 million women become pregnant around the world, 
+with one in every ten pregnancies ending in unsafe abortion. According to the World Health Organization(WHO) there are four general 
+categories of reasons for pregnancy termination, which encompass preserving the mother's health, addressing cases of rape or incest,
+ preventing the birth of a child with severe abnormalities, and considering social and economic factors. 
+This study aims to predict termination of pregnancy among pregnant women in the case of Ethiopia using homogeneous ensemble machine learning algorithms
+
+# Methods
+
+Following an experimental research approach, this study utilized data obtained from the Ethiopian Demographic Health Survey. 
+The data underwent preprocessing to ensure high quality and suitability for the machine learning algorithm. 
+The objective was to develop a predictive model for determining the termination of pregnancy. 
+Multiple models, including Adaptive Boost, Random Forest, Cat Boost, Extra Tree, and Extreme Gradient Boosting, were employed in this endeavor.
+ The dataset consisted of 23,482 instances, each containing 14 features. To evaluate the models, a training and testing dataset split ratio of 80/20 was utilized.
+#Result 
+The overall accuracy of random forest, cat boost, extreme gradient boosting, extra tree and adaptive boost is 90.59%, 89.92%, 89.80%, 89.04, and 89.50%  respectively.
+
+# Conclusion
+
+After careful evaluation, the researchers opted to employ random forest algorithms for advancing risk factor analysis and rule generation.
+ This decision was made based on the algorithm's impressive performance, achieving an accuracy rate of 90.59%. By utilizing the concept of feature importance, 
+the researchers successfully identified the most influential risk factors associated with termination of pregnancy. These are
+Did fieldworker talk about family planning
+Getting medical help for self: getting money 
+needed for treatment
+Getting medical help for self: distance to health facility
+Age in 5-year groups
+Region
+Type of place of residence
+Births in last three years
+Respondent occupation
+Mothers educational level
+Religion
+Husband partner occupation
+Wanted last child
+Contraceptive use and intention
+media exposure
+
+# Author
+
+@Misganaw Ketema Ayele 
+@Tesfamariam Mulugeta Abuhay
+@Eyob Tesgager Enyew
